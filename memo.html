@@ -7,10 +7,13 @@
         <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
         <link href="app.css" rel="stylesheet">
 		<script src="http://unpkg.com/vue"></script>
+             <style>
+		     .mystyle { color:red}
+	    </style>
     </head>
     <body>
         <div id="app" class="app">
-            <div class="head">메모 앱</div>
+            <div class="head mystyle">메모 앱</div>
             <div class="body">
                 <div v-if="mode==='list'">
                     <ul>
